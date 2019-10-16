@@ -1,0 +1,15 @@
+{
+  "presets": [
+      ["env",{
+        "targets": {
+          "node": "8.6.0"
+        }
+    }]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}
